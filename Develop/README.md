@@ -15,15 +15,15 @@
 
   this is a dummy project
 
-  # Installation <a name="installation></a>
+  # Installation <a name="installation"></a>
 
   # Usage <a name="use"></a>
 
-  # Contributing <a name="contribute></a>
+  # Contributing <a name="contribute"></a>
 
   sdxsa
 
-  # Questions <a name="questions></a>
+  # Questions <a name="questions"></a>
 
   taniachahal97 
 
