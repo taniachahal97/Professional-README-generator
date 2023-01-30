@@ -34,9 +34,10 @@ inquirer.prompt([
     },
 
     {
-        type: 'input',
+        type: 'list',
+        name: 'License',
         message: 'What kind of license should your project have?',
-        name: 'License'
+        choices: ["MIT","Apche License 2.0", "GNU General Public License v3.0"],
     },
 
     {
