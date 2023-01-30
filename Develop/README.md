@@ -1,15 +1,14 @@
-# Automatic Readme generator
+# Automatic README generator
 
   # Table of Contents
 
   1. [Description](#description)
-  2. [Installation] (#installation)
-  3. [Installation Instructions](#installation)
-  4. [Usage](#use)
-  5. [Contributing](#contribute)
-  6. [Questions] (#questions)
-  7. [Tests] (#tests)
-  8. [License] (#license)
+  2. [Installation Instructions](#installation)
+  3. [Usage](#use)
+  4. [Contributing](#contribute)
+  5. [Questions] (#questions)
+  6. [Tests] (#tests)
+  7. [License] (#license)
 
   # Description <a name="description"></a>
 
@@ -21,22 +20,24 @@
 
   # Contributing <a name="contribute"></a>
 
-  sdxsa
+  make contributions
 
   # Questions <a name="questions"></a>
 
-  taniachahal97 
+  taniachahal9 
 
   tcha0074@student.monash.edu
 
   install npm
 
-  nothing
+  nothing new
 
   # Tests <a name="tests"></a>
 
   tests 
 
-  # License <a name="license></a>
+  # License <a name="license"></a>
 
   MIT
+  
+  ![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)

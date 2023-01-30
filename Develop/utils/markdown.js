@@ -1,6 +1,10 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  console.log(license); //working // MIT
+
+  return `![GitHub license](https://img.shields.io/badge/License-${license}-blue.svg)`;
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -12,6 +16,9 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 const generateMarkdown = (data) => {
+
+    var licenseChoice = renderLicenseBadge(data.License); 
+    console.log(licenseChoice); // logged badge link 
     var desc = 'Description';
     var contents = 'Table of Contents';
     var installation = 'Installation';
@@ -27,27 +34,26 @@ const generateMarkdown = (data) => {
   # ${contents}
 
   1. [Description](#description)
-  2. [Installation] (#installation)
-  3. [Installation Instructions](#installation)
-  4. [Usage](#use)
-  5. [Contributing](#contribute)
-  6. [Questions] (#questions)
-  7. [Tests] (#tests)
-  8. [License] (#license)
+  2. [Installation Instructions](#installation)
+  3. [Usage](#use)
+  4. [Contributing](#contribute)
+  5. [Questions] (#questions)
+  6. [Tests] (#tests)
+  7. [License] (#license)
 
   # ${desc} <a name="description"></a>
 
   ${data.Description}
 
-  # ${installation} <a name="installation></a>
+  # ${installation} <a name="installation"></a>
 
   # ${use} <a name="use"></a>
 
-  # ${contribute} <a name="contribute></a>
+  # ${contribute} <a name="contribute"></a>
 
   ${data.contribution}
 
-  # ${ques} <a name="questions></a>
+  # ${ques} <a name="questions"></a>
 
   ${data.GitHub} 
 
@@ -61,9 +67,11 @@ const generateMarkdown = (data) => {
 
   ${data.Tests} 
 
-  # ${license} <a name="license></a>
+  # ${license} <a name="license"></a>
 
-  ${data.License}`;
+  ${data.License}
+  
+  ${licenseChoice}`;
 
 }
 
