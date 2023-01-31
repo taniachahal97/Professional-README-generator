@@ -35,7 +35,7 @@ const generateMarkdown = (data) => {
     var license = 'License';
 
 
-  return `# ${data.title} \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ${licenseChoice}
+  return `# ${data.title} \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ${licenseChoice}
 
   # ${contents}
 
@@ -43,9 +43,9 @@ const generateMarkdown = (data) => {
   2. [Installation Instructions](#installation)
   3. [Usage](#use)
   4. [Contributing](#contribute)
-  5. [Questions] (#questions)
-  6. [Tests] (#tests)
-  7. [License] (#license)
+  5. [Questions](#questions)
+  6. [Tests](#tests)
+  7. [License](#license)
 
   # ${desc} <a name="description"></a>
 
@@ -53,7 +53,11 @@ const generateMarkdown = (data) => {
 
   # ${installation} <a name="installation"></a>
 
+  ${data.install}
+
   # ${use} <a name="use"></a>
+
+  ${data.usage}
 
   # ${contribute} <a name="contributing"></a>
 
@@ -72,6 +76,7 @@ const generateMarkdown = (data) => {
   # ${test} <a name="tests"></a>
 
   Run the following command to test the programme
+
   > ${data.Tests} 
 
   # ${license} <a name="license"></a>
