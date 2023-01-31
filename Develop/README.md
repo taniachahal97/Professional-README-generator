@@ -1,4 +1,4 @@
-# Automatic README generator                                      ![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)
+# Automatic README generator          ![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)
 
   # Table of Contents
 
@@ -12,7 +12,7 @@
 
   # Description <a name="description"></a>
 
-  This is a demo project 
+  This is a demo project
 
   # Installation <a name="installation"></a>
 
@@ -20,23 +20,23 @@
 
   # Contributing <a name="contributing"></a>
 
-  Make contributions  via  your  local  branch
+  Make contributions  via  committing    to the repository
 
-  # Questions <a name="Questions"></a>
+  # Questions <a name="questions"></a>
 
-  This is the link to my GitHub profile : https://github.com/taniachahal97 
+  This is the link to my GitHub profile : https://github.com/taniachahal9 
 
   You can reach me via email at tcha0074@student.monash.edu
 
   npm install
 
-  This is a open source  repository
+  This is a dummy repository
 
-  # Tests <a name="Tests"></a>
+  # Tests <a name="tests"></a>
 
   Run the following command to test the programme
   > npm run tests 
 
-  # License <a name="License"></a>
+  # License <a name="license"></a>
 
   The project is covered under the MIT open source license

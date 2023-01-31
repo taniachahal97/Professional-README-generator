@@ -35,7 +35,7 @@ const generateMarkdown = (data) => {
     var license = 'License';
 
 
-  return `# ${data.title}                                      ${licenseChoice}
+  return `# ${data.title} \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ${licenseChoice}
 
   # ${contents}
 
@@ -59,7 +59,7 @@ const generateMarkdown = (data) => {
 
   ${data.contribution}
 
-  # ${ques} <a name="Questions"></a>
+  # ${ques} <a name="questions"></a>
 
   This is the link to my GitHub profile : https://github.com/${data.GitHub} 
 
@@ -69,12 +69,12 @@ const generateMarkdown = (data) => {
 
   ${data.repository}
 
-  # ${test} <a name="Tests"></a>
+  # ${test} <a name="tests"></a>
 
   Run the following command to test the programme
   > ${data.Tests} 
 
-  # ${license} <a name="License"></a>
+  # ${license} <a name="license"></a>
 
   ${licenseNotice}`
 
