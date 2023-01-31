@@ -6,21 +6,25 @@
   2. [Installation Instructions](#installation)
   3. [Usage](#use)
   4. [Contributing](#contribute)
-  5. [Questions] (#questions)
-  6. [Tests] (#tests)
-  7. [License] (#license)
+  5. [Questions](#questions)
+  6. [Tests](#tests)
+  7. [License](#license)
 
   # Description <a name="description"></a>
 
-  This is a demo project
+  The project prompts the user to answer some questions and then creates a README file using the user's answers to fill up the various contents of the README
 
   # Installation <a name="installation"></a>
 
+  Clone the professional-readme repository to your local machine . The professional-readme folder contains the index.js file, and a utils folder which contains the markdown.js file.
+
   # Usage <a name="use"></a>
+
+  Open the index.js file in VS code and run the file using node index.js command in the terminal 
 
   # Contributing <a name="contributing"></a>
 
-  Make contributions  via  committing    to the repository
+  Clone the repo to your local machine and  work on your local branch. Create pull requests  for  review  to  contribute to the project .
 
   # Questions <a name="questions"></a>
 
@@ -30,11 +34,12 @@
 
   npm install
 
-  This is a dummy repository
+  The user needs to install inquirer package to work with the application. It can be done using the command install inquirer@8.2.4 in the terminal
 
   # Tests <a name="tests"></a>
 
   Run the following command to test the programme
+  
   > npm run tests 
 
   # License <a name="license"></a>

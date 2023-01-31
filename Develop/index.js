@@ -26,7 +26,19 @@ inquirer.prompt([
         message: 'What is your project title?',
         name: 'title'
     },
+    {
+        type: 'input',
+        message: 'How can the user install the repository on their local machine?',
+        name: 'install'
 
+    },
+    {
+        type: 'input',
+        message: 'What does the user need to know about using the application?',
+        name: 'usage'
+
+    },
+    
     {
         type: 'input',
         message: 'Please write a short description of your project?',
@@ -48,7 +60,7 @@ inquirer.prompt([
 
     {
         type: 'input',
-        message: 'What command should be run to run tests?',
+        message: 'What command should be used to run the tests for the application?',
         name: 'Tests'
     },
 
@@ -60,7 +72,7 @@ inquirer.prompt([
 
     {
         type: 'input',
-        message: 'What does the user need to know about contributing to the repository?',
+        message: 'What does the user make contributions to the project?',
         name: 'contribution'
 
     },
