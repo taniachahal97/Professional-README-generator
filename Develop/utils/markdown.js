@@ -12,12 +12,18 @@ function renderLicenseLink(license) {}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+
+  return `The project is covered under the ${license} open source license`
+
+
+}
 
 // TODO: Create a function to generate markdown for README
 const generateMarkdown = (data) => {
 
     var licenseChoice = renderLicenseBadge(data.License); 
+    var licenseNotice = renderLicenseSection(data.License);
     console.log(licenseChoice); // logged badge link 
     var desc = 'Description';
     var contents = 'Table of Contents';
@@ -29,7 +35,7 @@ const generateMarkdown = (data) => {
     var license = 'License';
 
 
-  return `# ${data.title}
+  return `# ${data.title}                                      ${licenseChoice}
 
   # ${contents}
 
@@ -49,29 +55,28 @@ const generateMarkdown = (data) => {
 
   # ${use} <a name="use"></a>
 
-  # ${contribute} <a name="contribute"></a>
+  # ${contribute} <a name="contributing"></a>
 
   ${data.contribution}
 
-  # ${ques} <a name="questions"></a>
+  # ${ques} <a name="Questions"></a>
 
-  ${data.GitHub} 
+  This is the link to my GitHub profile : https://github.com/${data.GitHub} 
 
-  ${data.Email}
+  You can reach me via email at ${data.Email}
 
   ${data.Dependancies}
 
   ${data.repository}
 
-  # ${test} <a name="tests"></a>
+  # ${test} <a name="Tests"></a>
 
-  ${data.Tests} 
+  Run the following command to test the programme
+  > ${data.Tests} 
 
-  # ${license} <a name="license"></a>
+  # ${license} <a name="License"></a>
 
-  ${data.License}
-  
-  ${licenseChoice}`;
+  ${licenseNotice}`
 
 }
 
