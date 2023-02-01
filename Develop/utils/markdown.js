@@ -1,7 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  console.log(license); //working // MIT
+  //console.log(license); //working // MIT
 
   return `![GitHub license](https://img.shields.io/badge/License-${license}-blue.svg)`;
 }
@@ -24,7 +24,7 @@ const generateMarkdown = (data) => {
 
     var licenseChoice = renderLicenseBadge(data.License); 
     var licenseNotice = renderLicenseSection(data.License);
-    console.log(licenseChoice); // logged badge link 
+    //console.log(licenseChoice); // logged badge link 
     var desc = 'Description';
     var contents = 'Table of Contents';
     var installation = 'Installation';
@@ -35,7 +35,7 @@ const generateMarkdown = (data) => {
     var license = 'License';
 
 
-  return `# ${data.title} \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ${licenseChoice}
+  return `# ${data.title} \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ${licenseChoice}
 
   # ${contents}
 
@@ -59,7 +59,7 @@ const generateMarkdown = (data) => {
 
   ${data.usage}
 
-  # ${contribute} <a name="contributing"></a>
+  # ${contribute} <a name="contribute"></a>
 
   ${data.contribution}
 
@@ -69,7 +69,9 @@ const generateMarkdown = (data) => {
 
   You can reach me via email at ${data.Email}
 
-  ${data.Dependancies}
+  To install the dependencies required for this application run the following command in the terminal
+  
+  > ${data.Dependancies}
 
   ${data.repository}
 
