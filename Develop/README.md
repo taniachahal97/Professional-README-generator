@@ -1,4 +1,4 @@
-# Automatic README generator          ![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)
+# Automatic README generator                                               ![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)
 
   # Table of Contents
 
@@ -16,15 +16,15 @@
 
   # Installation <a name="installation"></a>
 
-  Clone the professional-readme repository to your local machine . The professional-readme folder contains the index.js file, and a utils folder which contains the markdown.js file.
+  Clone the Professional-README-generator repository to your local machine . The professional-README-generator contains an index.js file, and a utils folder which contains the markdown.js file
 
   # Usage <a name="use"></a>
 
-  Open the index.js file in VS code and run the file using node index.js command in the terminal 
+  Open the index.js file in VS Code and run the file using command node index.js in the terminal
 
-  # Contributing <a name="contributing"></a>
+  # Contributing <a name="contribute"></a>
 
-  Clone the repo to your local machine and  work on your local branch. Create pull requests  for  review  to  contribute to the project .
+  Clone the repo to your local machine and create a branch to work on. Create pull requests for your local branch  which can be reviewed by other team members to include your contributions to the project 
 
   # Questions <a name="questions"></a>
 
@@ -32,14 +32,16 @@
 
   You can reach me via email at tcha0074@student.monash.edu
 
-  npm install
+  To install the dependencies required for this application run the following command in the terminal
+  
+  > npm install
 
-  The user needs to install inquirer package to work with the application. It can be done using the command install inquirer@8.2.4 in the terminal
+  The user needs to install inquirer package to work with the application.It can be done using the command install inquirer@8.2.4 in the terminal
 
   # Tests <a name="tests"></a>
 
   Run the following command to test the programme
-  
+
   > npm run tests 
 
   # License <a name="license"></a>
