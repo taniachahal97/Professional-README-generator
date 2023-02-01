@@ -24,3 +24,6 @@ Please refer to the license in the repository
 
 ## Walk-through Video link 
 
+https://drive.google.com/file/d/1kbJ1efJpjNN5n6dq-shyJY6RBmVH4EZk/view?usp=sharing
+
+

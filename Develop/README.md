@@ -1,4 +1,4 @@
-# Automatic README generator                                                                                                     ![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)
+# Automatic README generator                                                                       ![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)
 
   # Table of Contents
 
@@ -12,19 +12,19 @@
 
   # Description <a name="description"></a>
 
-  The project prompts the user to answer some questions and then create a README file using the user's answers to fill up the various contents of the README
+  The project prompts the user to answer some questions and then creates a README file using the user's answers to fill up the various contents of the README file
 
   # Installation <a name="installation"></a>
 
-  Clone the professional=README-generator repository to your local machine. The professional-README-generator folder contains the index.js file, and a utils folder which contains the markdown.js file
+  Clone the professional-README-generator repository to your local machine. The professional-README-generator folder contains the index.js file, and a utils folder which contains the markdown.js file
 
   # Usage <a name="use"></a>
 
-  Open the index.js file in VS Code and run the file using the node index.js command in the terminal 
+  Open the iindex.js file in VS Code and run the file using node index.js command in the terminal
 
   # Contributing <a name="contribute"></a>
 
-  Clone the repository to your local machine and work on your local branch, create pull requests for review to contribute to the project
+  Clone the repo to your local machine and work on your locall branch. Create pull requests for other team members to review your work and add your contributions to the project
 
   # Questions <a name="questions"></a>
 
@@ -36,7 +36,7 @@
   
   > npm install
 
-  The user needs to install inquirer package to work with the application. It can be done using the command install inquirer@8.2.4 in the terminal
+  The user needs to install the inquirer package to work with the application. It can be done using the command install inquirer@8.2.4 in the terminal
 
   # Tests <a name="tests"></a>
 
