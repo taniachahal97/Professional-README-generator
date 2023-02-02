@@ -29,7 +29,6 @@ const generateMarkdown = (data) => {
 
     var licenseChoice = renderLicenseBadge(data.License); 
     var licenseNotice = renderLicenseSection(data.License);
-    //console.log(licenseChoice); // logged badge link 
     var desc = 'Description';
     var contents = 'Table of Contents';
     var installation = 'Installation';
